@@ -2,7 +2,7 @@
 
 The **OSI (Open Systems Interconnection)** model consists of **07 layers**. These layers define how data is transmitted over a network, and each provides specific functions to facilitate communication between devices.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/160f8e88-aceb-47ac-aea7-84a54c3eb8fd/07a47c7a-a2bb-45a6-a0a8-48e8b98bd00e/image.png)
+![OSI Layers](./osi_layers.png)
 
 | **OSI Layer** | **Function** | **AWS Services** |
 | --- | --- | --- |
