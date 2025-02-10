@@ -1,8 +1,6 @@
-A company's cloud architect has set up a solution that uses Amazon Route 53 to configure the DNS records for the primary website with the domain pointing to the Application Load Balancer (ALB). The company wants a solution where users will be directed to a static error page, configured as a backup, in case of unavailability of the primary website.
+> A company's cloud architect has set up a solution that uses Amazon Route 53 to configure the DNS records for the primary website with the domain pointing to the Application Load Balancer (ALB). The company wants a solution where users will be directed to a static error page, configured as a backup, in case of unavailability of the primary website."
 
-- Solution
-    
-    To achieve the solution where users are directed to a static error page in case the primary website is unavailable, you can implement **Route 53 health checks** combined with **failover routing**. This way, if the primary website becomes unavailable, Route 53 will automatically route traffic to the backup (static error page) hosted on Amazon S3.
+- To achieve the solution where users are directed to a static error page in case the primary website is unavailable, you can implement **Route 53 health checks** combined with **failover routing**. This way, if the primary website becomes unavailable, Route 53 will automatically route traffic to the backup (static error page) hosted on Amazon S3.
     
     Here is a step-by-step solution:
     
